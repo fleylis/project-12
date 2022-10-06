@@ -1,0 +1,48 @@
+.text{
+    background-color: powderblue;
+    width: 290px;
+    height: 250px;
+    border: black 2px solid;
+    overflow: scroll;
+    position: relative;
+    left: 90px;
+    top: 50px;
+}
+
+.smh{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    background-color: blue;
+    color: rgb(7, 7, 8);
+    border-radius: 150px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 200px;
+    animation-name: circle;
+    animation-duration: 8.3s;
+    transition: all 1s linear;
+}
+
+
+/* a:hover{
+    transform:scale(4.05) ;
+} */
+
+@keyframes circle{
+    
+    0%{
+        transform: scale(0.01);
+        opacity: 0;
+    }
+
+        
+    100%{
+        transform: scale(1) ;
+        opacity: 1;
+    }
+}
